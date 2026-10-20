@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AppCompat theme: needed for the per-app language switch on older Android versions. -->
+    <style name="Theme.Backup" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <color name="background">#EEF2F7</color>
+    <color name="icon_background">#E6F0FF</color>
+</resources>

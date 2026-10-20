@@ -1,0 +1,28 @@
+# Local settings: machine-specific paths and ports (every key is documented in the README)
+.env
+
+# Project-local toolchain: Android SDK, emulator image, Gradle cache, logs (large, per machine)
+.toolchain/
+
+# UI reference screenshots of third-party apps; kept locally, not in the repo
+reference/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+server/.venv/
+server/data/
+
+# Android / Gradle
+android/.gradle/
+android/.kotlin/
+android/build/
+android/**/build/
+android/local.properties
+android/.idea/
+*.iml
+captures/
+
+# Built APKs (python scripts/build_apks.py)
+dist/

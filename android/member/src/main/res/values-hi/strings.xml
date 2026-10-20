@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_dialog_title">अपनी भाषा चुनें</string>
+
+    <!-- M2 -->
+    <string name="welcome_title">बैकअप आपको धोखेबाज़ कॉल से बचाता है</string>
+    <string name="welcome_start">शुरू करें</string>
+
+    <!-- M3 -->
+    <string name="perm_header">इस कदम में परिवार के किसी सदस्य से मदद लें।</string>
+    <string name="perm_required">ज़रूरी</string>
+    <string name="perm_recommended">सुझाया गया</string>
+    <string name="perm_allow">अनुमति दें</string>
+    <string name="perm_allowed">अनुमति मिल गई</string>
+    <string name="perm_continue">आगे बढ़ें</string>
+    <string name="perm_continue_locked">आगे बढ़ने के लिए ज़रूरी अनुमतियाँ दें</string>
+    <string name="perm_notifications_title">सूचनाएँ</string>
+    <string name="perm_notifications_why">ताकि बैकअप दिखा सके कि वह आपकी सुरक्षा कर रहा है।</string>
+    <string name="perm_phone_title">फ़ोन, कॉल लॉग और संपर्क</string>
+    <string name="perm_phone_why">यह जानने के लिए कि कॉल करने वाला आपके संपर्कों में है या नहीं। आपके संपर्क इसी फ़ोन पर रहते हैं।</string>
+    <string name="perm_screening_title">कॉलर आईडी और स्पैम ऐप</string>
+    <string name="perm_screening_why">इससे बैकअप देख पाता है कि कौन कॉल कर रहा है। बैकअप कभी कॉल नहीं रोकता, न ही रिकॉर्ड करता है।</string>
+    <string name="perm_usage_title">उपयोग की जानकारी (Usage access)</string>
+    <string name="perm_usage_why">ताकि पता चले कि किसी संदिग्ध कॉल के दौरान कोई पेमेंट ऐप खोला गया।</string>
+    <string name="perm_usage_hint">सूची में Backup ढूँढें और उसे चालू करें। फिर वापस आएँ।</string>
+    <string name="perm_battery_title">बैकग्राउंड में चलने दें</string>
+    <string name="perm_battery_why">ताकि स्क्रीन बंद होने पर भी सुरक्षा चालू रहे।</string>
+    <string name="perm_autostart_title">ऑटोस्टार्ट चालू करें</string>
+    <string name="perm_autostart_why">ताकि फ़ोन दोबारा चालू होने पर बैकअप अपने-आप शुरू हो जाए।</string>
+
+    <!-- M4 -->
+    <string name="code_title">आपका बैकअप कोड</string>
+    <string name="code_hint">अपने बैकअप से कहें कि यह कोड Backup Circle ऐप में डालें।</string>
+    <string name="code_waiting">उनके जुड़ने का इंतज़ार है…</string>
+    <string name="code_expires">कोड %1$s में बदलेगा</string>
+    <string name="code_new">नया कोड</string>
+    <string name="code_loading">आपका कोड लाया जा रहा है…</string>
+    <string name="code_error_title">बैकअप सर्वर से संपर्क नहीं हो पा रहा</string>
+    <string name="error_no_server">देखें कि यह फ़ोन लैपटॉप वाले वाई-फ़ाई पर ही है।</string>
+    <string name="error_generic">कुछ गड़बड़ हो गई। फिर कोशिश करें।</string>
+    <string name="retry">फिर कोशिश करें</string>
+    <string name="back">वापस</string>
+
+    <!-- M5 -->
+    <string name="connected_title">आप %1$s से जुड़ गए हैं</string>
+
+    <!-- M6 -->
+    <string name="home_protected">आप सुरक्षित हैं</string>
+    <string name="home_protected_sub">बैकअप धोखेबाज़ कॉल पर नज़र रख रहा है</string>
+    <string name="home_paused">सुरक्षा रुकी हुई है</string>
+    <string name="home_fix">ठीक करें</string>
+    <string name="reason_notifications">सूचनाएँ बंद हैं।</string>
+    <string name="reason_phone">फ़ोन की अनुमति बंद है।</string>
+    <string name="reason_screening">कॉलर आईडी और स्पैम बंद है।</string>
+    <string name="reason_usage">उपयोग की जानकारी बंद है।</string>
+    <string name="home_your_backups">आपके बैकअप</string>
+    <string name="home_connected">जुड़े हुए</string>
+    <string name="home_no_backups">अभी कोई बैकअप नहीं जुड़ा है</string>
+    <string name="home_help">मेरा बैकअप क्या देख सकता है?</string>
+    <string name="home_call">%1$s को कॉल करें</string>
+    <string name="home_settings">सेटिंग्स</string>
+    <string name="home_add_backup">एक और बैकअप जोड़ें</string>
+    <string name="home_language">भाषा</string>
+
+    <!-- M7 -->
+    <string name="about_title">मेरा बैकअप क्या देख सकता है?</string>
+    <string name="about_info">जब आप किसी अनजान नंबर से लंबी कॉल पर हों और फिर कोई पेमेंट ऐप खोलें, तो आपके बैकअप को अलर्ट मिलता है।</string>
+    <string name="about_switch_calls">अनजान नंबरों से लंबी कॉल के बारे में मेरे बैकअप को बताएँ</string>
+    <string name="about_switch_payments">ऐसी कॉल के दौरान पेमेंट ऐप खुलने पर मेरे बैकअप को बताएँ</string>
+    <string name="about_cannot">आपका बैकअप आपके मैसेज नहीं पढ़ सकता, आपकी कॉल नहीं सुन सकता, आपके संपर्क नहीं देख सकता और आपके भुगतान नहीं देख सकता।</string>
+    <string name="about_backup_list">बैकअप सूची</string>
+    <string name="about_add_number">%1$s का नंबर जोड़ें</string>
+    <string name="about_change_number">नंबर बदलें</string>
+    <string name="about_number_title">%1$s का फ़ोन नंबर</string>
+    <string name="about_number_hint">लाल कॉल बटन इसी नंबर पर कॉल करता है।</string>
+    <string name="about_save">सेव करें</string>
+    <string name="about_cancel">रद्द करें</string>
+    <string name="about_version">बैकअप संस्करण %1$s</string>
+
+    <!-- Notification -->
+    <string name="notif_channel">सुरक्षा</string>
+    <string name="notif_protecting">बैकअप आपकी सुरक्षा कर रहा है</string>
+    <string name="notif_tap">बैकअप खोलने के लिए टैप करें</string>
+
+    <!-- Hidden demo panel -->
+    <string name="demo_title">डेमो पैनल</string>
+    <string name="demo_threshold">लंबी कॉल की सीमा</string>
+    <string name="demo_window">कॉल के बाद की अवधि</string>
+    <string name="demo_seconds">%1$d सेकंड</string>
+    <string name="demo_minutes">%1$d मिनट</string>
+    <string name="demo_watched">निगरानी वाले पेमेंट ऐप</string>
+    <string name="demo_add_app">ऐप जोड़ें</string>
+    <string name="demo_reset_list">सूची रीसेट करें</string>
+    <string name="demo_remove">हटाएँ</string>
+    <string name="demo_pick_app">ऐप चुनें</string>
+    <string name="demo_diagnostics">जाँच की जानकारी</string>
+    <string name="demo_server">सर्वर</string>
+    <string name="demo_connection">कनेक्शन</string>
+    <string name="demo_connected">जुड़ा हुआ</string>
+    <string name="demo_connecting">जुड़ रहा है</string>
+    <string name="demo_disconnected">नहीं जुड़ा</string>
+    <string name="demo_last_path">पिछली कॉल किससे पकड़ी गई</string>
+    <string name="demo_last_unknown">पिछला कॉल करने वाला अनजान</string>
+    <string name="demo_last_state">पिछली कॉल की स्थिति</string>
+    <string name="demo_risk">जोखिम की अवधि</string>
+    <string name="demo_risk_none">बंद</string>
+    <string name="demo_risk_call">अनजान कॉल चल रही है</string>
+    <string name="demo_risk_window">%1$s तक खुली</string>
+    <string name="demo_permissions">अनुमतियाँ</string>
+    <string name="demo_pending">भेजने के लिए बाकी इवेंट</string>
+    <string name="demo_path_screening">कॉलर आईडी (कॉल स्क्रीनिंग)</string>
+    <string name="demo_path_broadcast">फ़ोन स्टेट ब्रॉडकास्ट</string>
+    <string name="demo_path_simulation">सिमुलेशन</string>
+    <string name="demo_none">कुछ नहीं</string>
+    <string name="demo_yes">हाँ</string>
+    <string name="demo_no">नहीं</string>
+    <string name="state_idle">कोई कॉल नहीं</string>
+    <string name="state_ringing">घंटी बज रही है</string>
+    <string name="state_offhook">कॉल चल रही है</string>
+    <string name="demo_simulate">सिमुलेशन</string>
+    <string name="demo_sim_answer">अनजान कॉल उठाने का सिमुलेशन</string>
+    <string name="demo_sim_end">कॉल खत्म होने का सिमुलेशन</string>
+    <string name="demo_sim_payment">पेमेंट ऐप खुलने का सिमुलेशन</string>
+    <string name="demo_server_address">सर्वर का पता</string>
+    <string name="demo_emulator_hint">एमुलेटर: 10.0.2.2:8000</string>
+    <string name="demo_save_address">पता सेव करें</string>
+    <string name="demo_rediscover">सर्वर फिर से खोजें</string>
+    <string name="demo_searching">सर्वर खोजा जा रहा है…</string>
+    <string name="demo_found">सर्वर %1$s पर मिला</string>
+    <string name="demo_not_found">इस वाई-फ़ाई पर कोई सर्वर नहीं मिला</string>
+    <string name="demo_saved">सेव हो गया। %1$s से जोड़ा जा रहा है…</string>
+    <string name="demo_bad_address">इस पते पर कोई बैकअप सर्वर नहीं मिला।</string>
+    <string name="demo_reset_phone">यह फ़ोन रीसेट करें</string>
+    <string name="demo_reset_confirm">यह फ़ोन रीसेट करें? बैकअप फिर से भाषा वाली स्क्रीन से शुरू होगा।</string>
+    <string name="demo_reset">रीसेट करें</string>
+</resources>

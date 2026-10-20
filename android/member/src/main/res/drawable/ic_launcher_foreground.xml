@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Backup: blue rounded shield with a white tick. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#1E88FF"
+        android:pathData="M54,27 L74,34.2 Q78,35.7 78,40 L78,52 C78,66 68.5,75.5 54,81 C39.5,75.5 30,66 30,52 L30,40 Q30,35.7 34,34.2 Z" />
+    <path
+        android:pathData="M44,54 L51,61 L65,46"
+        android:strokeWidth="6"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

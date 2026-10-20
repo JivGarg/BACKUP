@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Backup</string>
+
+    <!-- M1 language: shown before a language is chosen, so it is bilingual in both files -->
+    <string name="lang_title" translatable="false">Choose your language\nअपनी भाषा चुनें</string>
+    <string name="lang_english" translatable="false">English</string>
+    <string name="lang_hindi" translatable="false">हिंदी</string>
+    <string name="language_dialog_title">Choose your language</string>
+
+    <!-- M2 welcome -->
+    <string name="welcome_title">Backup keeps you safe from scam calls</string>
+    <string name="welcome_start">Start</string>
+
+    <!-- M3 permissions -->
+    <string name="perm_header">Ask your family member to help with this step.</string>
+    <string name="perm_required">Needed</string>
+    <string name="perm_recommended">Recommended</string>
+    <string name="perm_allow">Allow</string>
+    <string name="perm_allowed">Allowed</string>
+    <string name="perm_continue">Continue</string>
+    <string name="perm_continue_locked">Allow the needed items to continue</string>
+    <string name="perm_notifications_title">Notifications</string>
+    <string name="perm_notifications_why">So Backup can show that it is protecting you.</string>
+    <string name="perm_phone_title">Phone, call log and contacts</string>
+    <string name="perm_phone_why">To check if a caller is saved in your contacts. Your contacts stay on this phone.</string>
+    <string name="perm_screening_title">Caller ID &amp; spam app</string>
+    <string name="perm_screening_why">Lets Backup see who is calling. Backup never blocks or records calls.</string>
+    <string name="perm_usage_title">Usage access</string>
+    <string name="perm_usage_why">To notice when a payment app opens during a risky call.</string>
+    <string name="perm_usage_hint">In the list, find Backup and turn it on. Then come back.</string>
+    <string name="perm_battery_title">Run in the background</string>
+    <string name="perm_battery_why">So protection keeps working when the screen is off.</string>
+    <string name="perm_autostart_title">Allow autostart</string>
+    <string name="perm_autostart_why">So Backup starts again after the phone restarts.</string>
+
+    <!-- M4 code -->
+    <string name="code_title">Your Backup code</string>
+    <string name="code_hint">Ask your Backup to type this code in the Backup Circle app.</string>
+    <string name="code_waiting">Waiting for them to connect…</string>
+    <string name="code_expires">Code changes in %1$s</string>
+    <string name="code_new">New code</string>
+    <string name="code_loading">Getting your code…</string>
+    <string name="code_error_title">Can\'t reach the Backup server</string>
+    <string name="error_no_server">Make sure this phone is on the same Wi-Fi as the laptop.</string>
+    <string name="error_generic">Something went wrong. Try again.</string>
+    <string name="retry">Try again</string>
+    <string name="back">Back</string>
+
+    <!-- M5 connected -->
+    <string name="connected_title">You\'re connected to %1$s</string>
+
+    <!-- M6 home -->
+    <string name="home_protected">You are protected</string>
+    <string name="home_protected_sub">Backup is watching for scam calls</string>
+    <string name="home_paused">Protection is paused</string>
+    <string name="home_fix">Fix</string>
+    <string name="reason_notifications">Notifications are off.</string>
+    <string name="reason_phone">Phone permission is off.</string>
+    <string name="reason_screening">Caller ID &amp; spam is off.</string>
+    <string name="reason_usage">Usage access is off.</string>
+    <string name="home_your_backups">Your Backups</string>
+    <string name="home_connected">Connected</string>
+    <string name="home_no_backups">No Backup connected yet</string>
+    <string name="home_help">What can my Backup see?</string>
+    <string name="home_call">Call %1$s</string>
+    <string name="home_settings">Settings</string>
+    <string name="home_add_backup">Add another Backup</string>
+    <string name="home_language">Language</string>
+
+    <!-- M7 what can my Backup see -->
+    <string name="about_title">What can my Backup see?</string>
+    <string name="about_info">Your Backup gets an alert when you are on a long call with an unknown number and then open a payment app.</string>
+    <string name="about_switch_calls">Tell my Backup about long calls from unknown numbers</string>
+    <string name="about_switch_payments">Tell my Backup when a payment app opens during such a call</string>
+    <string name="about_cannot">Your Backup cannot read your messages, listen to your calls, see your contacts or see your payments.</string>
+    <string name="about_backup_list">Backup list</string>
+    <string name="about_add_number">Add %1$s\'s number</string>
+    <string name="about_change_number">Change number</string>
+    <string name="about_number_title">%1$s\'s phone number</string>
+    <string name="about_number_hint">The red Call button uses this number.</string>
+    <string name="about_save">Save</string>
+    <string name="about_cancel">Cancel</string>
+    <string name="about_version">Backup version %1$s</string>
+
+    <!-- Notification -->
+    <string name="notif_channel">Protection</string>
+    <string name="notif_protecting">Backup is protecting you</string>
+    <string name="notif_tap">Tap to open Backup</string>
+
+    <!-- Hidden demo panel -->
+    <string name="demo_title">Demo panel</string>
+    <string name="demo_threshold">Long-call threshold</string>
+    <string name="demo_window">After-call window</string>
+    <string name="demo_seconds">%1$d s</string>
+    <string name="demo_minutes">%1$d min</string>
+    <string name="demo_watched">Watched payment apps</string>
+    <string name="demo_add_app">Add app</string>
+    <string name="demo_reset_list">Reset list</string>
+    <string name="demo_remove">Remove</string>
+    <string name="demo_pick_app">Pick an app</string>
+    <string name="demo_diagnostics">Diagnostics</string>
+    <string name="demo_server">Server</string>
+    <string name="demo_connection">Connection</string>
+    <string name="demo_connected">connected</string>
+    <string name="demo_connecting">connecting</string>
+    <string name="demo_disconnected">not connected</string>
+    <string name="demo_last_path">Last call seen by</string>
+    <string name="demo_last_unknown">Last caller unknown</string>
+    <string name="demo_last_state">Last call state</string>
+    <string name="demo_risk">Risk window</string>
+    <string name="demo_risk_none">closed</string>
+    <string name="demo_risk_call">unknown call in progress</string>
+    <string name="demo_risk_window">open until %1$s</string>
+    <string name="demo_permissions">Permissions</string>
+    <string name="demo_pending">Events waiting to send</string>
+    <string name="demo_path_screening">Caller ID (call screening)</string>
+    <string name="demo_path_broadcast">Phone-state broadcast</string>
+    <string name="demo_path_simulation">Simulation</string>
+    <string name="demo_none">none</string>
+    <string name="demo_yes">yes</string>
+    <string name="demo_no">no</string>
+    <string name="state_idle">no call</string>
+    <string name="state_ringing">ringing</string>
+    <string name="state_offhook">in a call</string>
+    <string name="demo_simulate">Simulation</string>
+    <string name="demo_sim_answer">Simulate unknown call answered</string>
+    <string name="demo_sim_end">Simulate call ended</string>
+    <string name="demo_sim_payment">Simulate payment app opened</string>
+    <string name="demo_server_address">Server address</string>
+    <string name="demo_emulator_hint">Emulator: 10.0.2.2:8000</string>
+    <string name="demo_save_address">Save address</string>
+    <string name="demo_rediscover">Rediscover server</string>
+    <string name="demo_searching">Looking for the server…</string>
+    <string name="demo_found">Found the server at %1$s</string>
+    <string name="demo_not_found">No server found on this Wi-Fi</string>
+    <string name="demo_saved">Saved. Connecting to %1$s…</string>
+    <string name="demo_bad_address">No Backup server answered at that address.</string>
+    <string name="demo_reset_phone">Reset this phone</string>
+    <string name="demo_reset_confirm">Reset this phone? Backup will start again from the language screen.</string>
+    <string name="demo_reset">Reset</string>
+</resources>

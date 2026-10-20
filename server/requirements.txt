@@ -1,0 +1,7 @@
+fastapi==0.151.0
+uvicorn==0.54.0
+websockets==17.3
+sqlmodel==0.0.48
+zeroconf==0.151.5
+httpx==0.28.1
+pytest==9.1.1
